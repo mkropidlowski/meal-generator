@@ -1,0 +1,124 @@
+body{
+    background-color:rgb(94, 111, 124);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.header{
+    text-align: center;
+    margin-top:10%;
+}
+
+.demo{
+    margin-top:5%;
+    width: 150px;
+    padding: 10px;
+    background-color: brown;
+    border: 0;
+    border-radius: 10%;
+    color:white;
+    font-weight: bold;
+}
+
+.demo span{
+    margin-left:10px;
+}
+
+
+.food-img{
+    width:315px;
+    height: 300px;
+}
+
+.food-img img{
+    margin-top: 30px;
+    border-radius: 5%;
+}
+
+
+.item-list
+{
+    padding: 5px;
+}
+
+.recipe p{
+    text-align: justify;
+    margin-top:50px;
+}
+
+
+
+
+@media only screen and (min-width:1220px) {
+
+.container{
+    max-height: 100%;
+    width:70%;
+    
+}
+
+.about-recipe{
+    margin-top:200px;
+}
+.meal-spec{
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.recipe{
+    width: 100%;
+    min-height: 150px;
+    padding: 30px;
+}
+
+.video
+{
+    margin-top:150px;
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+
+
+@media only screen and (max-width:1220px) and (min-width:320px) {
+
+    .container{
+        max-height: 100%;
+        width:90%;    
+    }
+  
+    .meal-spec{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-recipe{
+        margin-top:100px;
+    }
+
+    .recipe{
+        margin:50px 0 70px;
+
+    }
+
+    .video{
+    margin:150px 0 150px;
+    display: flex;
+    justify-content: center;
+    }
+
+    .video-frame{
+        height: 300px;
+    }
+
+   
+
+}
